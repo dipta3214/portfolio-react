@@ -38,7 +38,9 @@
 } */
 
 /* body starts */
-
+body > #root > div {
+  height: 100vh;
+}
 
 body {
   height: 100%;
@@ -49,9 +51,7 @@ body {
   flex-flow: column;
   height: 100%;
 }
-.box .row {
-  border: 1px dotted #0313fc;
-}
+
 .box .row.header {
   flex: 0 1 auto;
 }
@@ -96,7 +96,6 @@ nav{
 /* Main content starts */
 
 .content{
-  /* flex: 1 1 auto; */
   display: flex;
   justify-content: center;
   align-items: center;

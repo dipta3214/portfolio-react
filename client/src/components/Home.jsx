@@ -8,9 +8,10 @@ export default function () {
           <h1>
             Hi, I'm <strong>Abidur</strong>
           </h1>
+          <h4>A FullStack Developer</h4>
         </div>
         <div className="links">
-          <a href="./about.html">
+          <a href="#">
             <h3>About →</h3>
             <p>Learn about me.</p>
           </a>
