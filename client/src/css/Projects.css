@@ -1,0 +1,29 @@
+.project-content{
+    display: flex;
+    justify-content: center;
+}
+
+.project-heading{
+    text-align: center;
+}
+  
+.project-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    grid-gap: 10px;
+}
+  
+.project-content a{
+    padding: 1rem 3rem;
+    border: 1px solid;
+    --tw-border-opacity: 1;
+    border-color: rgb(229 231 235 / var(--tw-border-opacity));
+    margin: 0 8px;
+    text-decoration: none;
+    color: black;
+}
+  
+.project-content a:hover{
+    border-color: #6366F1;
+}
